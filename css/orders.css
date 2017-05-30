@@ -1,0 +1,143 @@
+.color-primary{
+    color:#A4C639;
+
+}
+.color-secondary{
+    
+    color: #778899;
+}
+p{
+    font-family: "Century Gothic";
+}
+
+#primary{
+    background-color: white;
+    height: 100%;
+    display: block;
+    border-right: 1px solid #f2f2f2;
+    font-family: "Century Gothic";
+}
+#primary .logo img{
+    width: 55px
+}
+#primary li{
+    text-align: center;
+    width: 75px;
+    display: block;
+    margin: 5px 0;
+    cursor: pointer;
+}
+#primary li i{
+    font-size: 22px;
+}
+#primary li:hover i,
+#primary li.active i{
+    color: #A4C639;
+}
+#primary li p{
+    font-size: 10px;
+}
+
+#secondary{
+    border-right: 1px solid #f2f2f2;
+    font-family: "Century Gothic";
+}
+#secondary .header{
+    background: white;
+    margin: 5px;
+    
+}
+#secondary .search{
+    background: #e4e4e4;
+    padding: 5px;
+}
+#secondary .volume_control i{
+    font-size: 30px;
+    color: #A4C639;
+}
+
+#secondary .sub-header{
+    background-color: #778899;;
+    color: white;
+    padding: 7px;
+}
+
+#secondary .orders_container.future .order_container{
+    border-right: 3px solid orange;
+}
+#secondary .orders_container.current .order_container{
+    border-right: 3px solid red;
+}
+#secondary .order_container{
+    border:1px solid #f2f2f2;
+    -webkit-box-shadow: 0 1px 2px 1px #cccccc;
+    -moz-box-shadow: 0 1px 2px 1px #cccccc;
+    box-shadow: 0 1px 2px 1px #cccccc;
+}
+#secondary .order_container p{
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+#secondary .order_container .icon_container i{
+    padding: 18px;
+    font-size: 26px;
+    
+}
+#secondary .order_container+.order_container{
+    margin-top: 5px;
+}
+#container{
+    font-family: "Century Gothic";
+}
+
+#container .header{
+    font-size: 38px;
+    vertical-align: middle;
+
+}
+
+#container .panel,#rightcontainer .panel{
+    margin: 10px 0;
+    -webkit-box-shadow: 0 1px 1px 1px #cccccc;
+    -moz-box-shadow: 0 1px 1px 1px #cccccc;
+    box-shadow: 0 1px 1px 1px #cccccc;
+    border-radius: 0;
+    border-left: 2px solid #367c9d;
+}
+.panel{
+    font-family: "Century Gothic";
+
+}
+
+.br50{
+    border-radius: 50%;
+}
+.br100{
+    border-radius: 50%;
+}
+.mar0{
+    margin: 0;
+}
+.martb10{
+    margin: 10px 0;
+}
+.color1{
+     border-style: solid;
+    border-color: #A4C639 #A4C639;
+    color: #A4C639;
+    font-weight: bold;
+}
+
+.color2{
+     border-style: solid;
+    border-color: #ff0000 #ff0000;
+    color: #ff0000;
+    font-weight: bold;
+}
+.label{
+    border-radius: 25px 25px 25px 25px;
+    background-color: #389bff; 
+      
+}

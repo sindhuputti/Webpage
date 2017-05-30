@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Orders</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/orders.css">
+</head>
+<body>
+<div class="container-fluid" id="mainContainer">
+    <div class="row">
+        <div class="col-sm-1" id="primary">
+            <ul class="nav navbar-nav">
+                <li class="logo">
+                    <img src="media/waitr.jpg">
+                </li>
+                <li class="active">
+                    <i class="fa fa-files-o"></i>
+                    <p>Orders</p>
+                </li>
+                <li>
+                    <i class="fa fa-hdd-o"></i>
+                    <p>Archive</p>
+                </li>
+                <li>
+                    <i class="fa fa-glass"></i>
+                    <p>Restaurants</p>
+                </li>
+                <li>
+                    <i class="fa fa-newspaper-o"></i>
+                    <p>Menu</p>
+                </li>
+                <li>
+                    <i class="fa fa-line-chart"></i>
+                    <p>Reports</p>
+                </li>
+                <li>
+                    <i class="fa fa-car"></i>
+                    <p>Deliveries</p>
+                </li>
+                <li>
+                    <i class="fa fa-sign-out"></i>
+                    <p>Logout</p>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-3" id="secondary">
+            <div class="row">
+                <div class="header">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="col-sm-5">
+                                <input class="form-control input-sm" placeholder="Current Orders">
+                            </div>
+                            <div class="col-sm-5">
+                                <input class="form-control input-sm" placeholder="Future Orders">
+                            </div>
+                            <div class="col-sm-2 volume_control">
+                                <i class="fa fa-volume-off"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="search">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <input class="form-control input-sm" placeholder="Search Users">
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-header">
+                    <h6 class="text-center text-uppercase mar0"><strong>future orders</strong></h6>
+                </div>
+                <div class="orders_container future">
+                    <div class="order_container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="col-sm-9">
+                                    <h5><strong><i class="fa fa-user color-secondary"></i> Robert Ford</strong></h5>
+                                    <p class="mar0 color-secondary">Cotten's Famous Hamburgers</p>
+                                    <p class="mar0 color-primary">337.477.9759</p>
+                                </div>
+                                <div class="col-sm-3 icon_container">
+                                    <i class="fa fa-car color-secondary"></i>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="col-sm-9">
+                                    <h6 class="color-secondary">Order Placed: Today @ 1:40 PM</h6>
+                                </div>
+                                <div class="col-sm-3">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order_container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="col-sm-9">
+                                    <h5><strong><i class="color-secondary"></i> Peter Parker</strong></h5>
+                                    <p class="mar0 color-secondary">Hub City Diner</p>
+                                    <p class="mar0 color-primary">337.477.9759</p>
+                                </div>
+                                <div class="col-sm-3 icon_container">
+                                    <i class="fa fa-car color-secondary"></i>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="col-sm-9">
+                                    <h6 class="color-secondary">Order Placed: Today @ 1:40 PM</h6>
+                                </div>
+                                <div class="col-sm-3">
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-header">
+                    <h6 class="text-center text-uppercase mar0"><strong>current orders</strong></h6>
+                </div>
+                <div class="orders_container current">
+                    <div class="order_container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="col-sm-9">
+                                    <h5><strong><i class="color-secondary"></i> Wyatt Fasbender</strong></h5>
+                                    <p class="mar0 color-secondary">Paupart's Bakery on Pinhook</p>
+                                    <p class="mar0 color-primary">337.477.9759</p>
+                                </div>
+                                <div class="col-sm-3 icon_container">
+                                    <i class="fa fa-shopping-bag color-secondary"></i>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="col-sm-9">
+                                    <h6 class="color-secondary">Order Placed: Today @ 1:40 PM</h6>
+                                </div>
+                                <div class="col-sm-3">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order_container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="col-sm-9">
+                                    <h5><strong><i class="color-secondary"></i> Tony Stark</strong></h5>
+                                    <p class="mar0 color-secondary">South side Bakery</p>
+                                    <p class="mar0 color-primary">337.477.9759</p>
+                                </div>
+                                <div class="col-sm-3 icon_container">
+                                    <i class="fa fa-car color-secondary"></i>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="col-sm-9">
+                                    <h6 class="color-secondary">Order Placed: Today @ 1:40 PM</h6>
+                                </div>
+                                <div class="col-sm-3">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order_container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="col-sm-9">
+                                    <h5><strong><i class="color-secondary"></i> Captain America</strong></h5>
+                                    <p class="mar0 color-secondary">Fat Pat's on Westmark</p>
+                                    <p class="mar0 color-primary">337.477.9759</p>
+                                </div>
+                                <div class="col-sm-3 icon_container">
+                                    <i class="fa fa-car color-secondary"></i>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="col-sm-9">
+                                    <h6 class="color-secondary">Order Placed: Today @ 1:40 PM</h6>
+                                </div>
+                                <div class="col-sm-3">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-5" id="container">
+            <div class="container-fluid panel">
+                <div class="col-sm-10">
+                    <span class="header">Robert Ford</span>
+                    <span class="label label-primary lb-lg">Leader</span>
+                    <h3 class="mar0 color-primary">337.654.3210</h3>
+                    <div class="color-secondary martb10">
+                        <p class="mar0">Cotten's Famous Hamburgers</p>
+                        <p class="mar0">Order Placed: Today @1:40 PM</p>
+                        <p class="mar0">Deliver By: Today @5:00 PM</p>
+                            
+                    </div>
+                    <div class="martb10">
+                                <div class="col-sm-12">
+                                <strong class="martb10">Sweet Potato Fries</strong><br>
+                                <strong class="martb10">Chicken and Sausage Gumbo</strong><br>
+                                
+                                    <div class="col-sm-10">
+                                        <p class="mar0">White Rice</p>
+                                        <p class="mar0">Bowl</p>
+
+                                    </div>
+                                    <div class="martb10 col-sm-2">
+                                       <p class="mar0">$20</p>
+                                       <p class="mar0">$14</p>
+                                    </div>
+
+
+                                    <div class="col-sm-10">
+                                    <strong class="martb10">Soup and Salad</strong><br>
+                                    <div>    
+                                        <p class="mar0">Ranch</p>
+                                    </div>
+                                    </div>
+                                    <p class="martb10 col-sm-2">$4</p>
+                                    
+                                          
+                                </div>
+                                    
+                    </div>
+                        
+                </div>
+                <div class="col-sm-12">
+                    <span class="header">Bernard Lowe</span>
+                    <h3 class="mar0 color-primary">337.654.3210</h3>
+                                <div class="col-sm-12">
+                                <strong class="martb10">Atomic Q's</strong><br>
+                                <strong class="martb10">Cajun smoked Sausage</strong><br>
+                                
+                                    <div class="col-sm-8">
+                                        <p class="mar0">Toast</p>
+                                        <p class="mar0">Diner's Brown</p>
+
+                                    </div>
+                                    <div class="martb10 col-sm-2">
+                                       <p class="mar0">$20</p>
+                                       <p class="mar0">$14</p>
+                                    </div>
+
+
+                                    <div class="col-sm-8">
+                                    <strong class="martb10">Choclate Milk</strong><br>
+                                    <strong class="martb10">Sweet Potato Fries</strong><br>
+                                    
+                                    </div>
+                                    <p class="col-sm-2">$4</p>
+                                    
+                                    
+                                </div>
+                </div>                    
+                        
+            </div>
+                
+                         
+                
+        </div>
+        
+        <div class="col-sm-3" id="rightcontainer">
+            <div class="container-fluid panel">
+                <div class="text-center">
+                    <h1><button class="btn btn-lg btn-default color1">Accept Order</button></h1>
+                    <h1><button class="btn btn-lg btn-default color2">R eject Order</button></h1>
+                </div>
+                <div class="color-secondary martb10 col-sm-8">
+                 <p class="mar0">Subtotal</p>
+                 <p class="mar0">Tip</p>
+                 <p class="mar0">Tax</p>
+                 <p class="mar0">Total</p>          
+                            
+                </div>
+                <div class="color-secondary martb10 col-sm-2">
+                 <p class="mar0">$20</p>
+                 <p class="mar0">$14</p>
+                 <p class="mar0">$4</p>
+                 <p class="mar0">$38</p>
+                </div>
+
+                <div class="color-secondary martb10">
+                <strong class="mar0">Delivery Address:</strong>
+                <p class="mar0">537 Cajundome Blvd</p>
+                <p class="mar0">Lafayette,LA,70503</p>
+                </div>
+
+                <div class="color-secondary martb10">
+                <strong class="mar0">Restaurant Address:</strong>
+                <p class="mar0">1412 South College Road</p>
+                <p class="mar0">Lafayette,LA,70503</p>
+                 
+           <div class="box mar0">
+            <div class="row">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.6532877848267!2d-92.04088608522541!3d30.21844158181932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86249c6f32312427%3A0xb73331e01ce6cf1!2sCAJUNDOME!5e0!3m2!1sen!2sus!4v1481680786683" width="100%" height="260" frameborder="0" style="border:0" allowfullscreen></iframe> 
+            </div>
+          </div>
+       
+                
+                
+                </div>
+            </div>
+        </div>
+        
+
+        
+
+    </div>
+</div>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/orders.js"></script>
+</body>
+</html>
